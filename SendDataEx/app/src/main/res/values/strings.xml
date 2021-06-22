@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SendDataEx</string>
+    <string name="btnsend">Send Data to Second Activity</string>
+</resources>

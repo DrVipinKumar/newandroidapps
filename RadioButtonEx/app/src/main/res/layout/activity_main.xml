@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="381dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="36dp"
+        android:text="Select your language"
+        android:textSize="30dp"
+        android:textColor="#ff00ff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radiobutton"
+        android:layout_width="374dp"
+        android:layout_height="321dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.066">
+
+        <RadioButton
+            android:id="@+id/rdpJava"
+            android:layout_width="232dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="20dp"
+            android:text="Java"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.083"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <RadioButton
+            android:id="@+id/rdpPython"
+            android:layout_width="234dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="20dp"
+            android:text="Python"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.09"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rdpJava" />
+
+        <RadioButton
+            android:id="@+id/rdpNodeJS"
+            android:layout_width="238dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="20dp"
+            android:text="NodeJS"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.092"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rdpPython" />
+
+        <RadioButton
+            android:id="@+id/rdpKotlin"
+            android:layout_width="243dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="24dp"
+            android:text="Kotlin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.089"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rdpNodeJS"
+            app:layout_constraintVertical_bias="0.0" />
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

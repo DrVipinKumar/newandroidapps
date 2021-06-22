@@ -1,0 +1,2 @@
+rootProject.name = "AsncTaskExample"
+include ':app'
