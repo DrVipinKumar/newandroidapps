@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
             try {
                 Intent intent = new Intent(Settings.ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION);
                 intent.addCategory("android.intent.category.DEFAULT");
-                intent.setData(Uri.parse(String.format("package:%s", new Object[]{getApplicationContext().getPackageName()})));
+                intent.setData(Uri.parse(String.format("package:%s", getApplicationContext().getPackageName())));
                 activityResultLauncher.launch(intent);
             }catch (Exception e)
             {

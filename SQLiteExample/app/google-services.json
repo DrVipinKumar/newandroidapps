@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "12267547602",
+    "project_id": "registration-75ace",
+    "storage_bucket": "registration-75ace.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12267547602:android:7de29faacc8e0ee16b360b",
+        "android_client_info": {
+          "package_name": "edu.kiet.sqliteexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12267547602-439gpjebrhfuln2f30d9pl8r549ntcj2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6qfVPelr28HDKjviJDjWBIACNqpSVNas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12267547602-439gpjebrhfuln2f30d9pl8r549ntcj2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

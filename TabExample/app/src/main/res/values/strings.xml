@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tab Example</string>
+    <string name="tab_text_1">CHATS</string>
+    <string name="tab_text_2">STATUS</string>
+    <string name="tab_text_3">CALLS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="chats">Welcome to Chat Fragment</string>
+    <string name="status">Welcome to Status Fragment</string>
+    <string name="calls">Welcome to Calls Fragment</string>
+</resources>
